@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		85E4AFCE295BFD50008008C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E4AFCD295BFD50008008C2 /* AppDelegate.swift */; };
 		85E4AFD0295BFD50008008C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E4AFCF295BFD50008008C2 /* SceneDelegate.swift */; };
-		85E4AFD2295BFD50008008C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E4AFD1295BFD50008008C2 /* ViewController.swift */; };
 		85E4AFD5295BFD50008008C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E4AFD3295BFD50008008C2 /* Main.storyboard */; };
 		85E4AFD7295BFD53008008C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E4AFD6295BFD53008008C2 /* Assets.xcassets */; };
 		85E4AFDA295BFD53008008C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E4AFD8295BFD53008008C2 /* LaunchScreen.storyboard */; };
 		85E4AFE5295BFD54008008C2 /* ToiletMapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E4AFE4295BFD54008008C2 /* ToiletMapsTests.swift */; };
 		85E4AFEF295BFD54008008C2 /* ToiletMapsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E4AFEE295BFD54008008C2 /* ToiletMapsUITests.swift */; };
 		85E4AFF1295BFD54008008C2 /* ToiletMapsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E4AFF0295BFD54008008C2 /* ToiletMapsUITestsLaunchTests.swift */; };
+		85E4AFFE295C02DF008008C2 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E4AFFD295C02DF008008C2 /* StartViewController.swift */; };
+		85E4B001295C04AC008008C2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85E4B000295C04AA008008C2 /* GoogleService-Info.plist */; };
+		85E4B004295C05CD008008C2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 85E4B003295C05CD008008C2 /* FirebaseAnalytics */; };
+		85E4B006295C05CE008008C2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 85E4B005295C05CE008008C2 /* FirebaseAuth */; };
+		85E4B008295C05CE008008C2 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 85E4B007295C05CE008008C2 /* FirebaseDatabase */; };
+		85E4B00A295C05CE008008C2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 85E4B009295C05CE008008C2 /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,6 @@
 		85E4AFCA295BFD50008008C2 /* ToiletMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToiletMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E4AFCD295BFD50008008C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85E4AFCF295BFD50008008C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		85E4AFD1295BFD50008008C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		85E4AFD4295BFD50008008C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85E4AFD6295BFD53008008C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85E4AFD9295BFD53008008C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		85E4AFEA295BFD54008008C2 /* ToiletMapsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToiletMapsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E4AFEE295BFD54008008C2 /* ToiletMapsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletMapsUITests.swift; sourceTree = "<group>"; };
 		85E4AFF0295BFD54008008C2 /* ToiletMapsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletMapsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		85E4AFFD295C02DF008008C2 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		85E4B000295C04AA008008C2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85E4B008295C05CE008008C2 /* FirebaseDatabase in Frameworks */,
+				85E4B00A295C05CE008008C2 /* FirebaseStorage in Frameworks */,
+				85E4B004295C05CD008008C2 /* FirebaseAnalytics in Frameworks */,
+				85E4B006295C05CE008008C2 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,13 +109,14 @@
 		85E4AFCC295BFD50008008C2 /* ToiletMaps */ = {
 			isa = PBXGroup;
 			children = (
+				85E4AFFF295C02F1008008C2 /* ViewControllers */,
 				85E4AFCD295BFD50008008C2 /* AppDelegate.swift */,
 				85E4AFCF295BFD50008008C2 /* SceneDelegate.swift */,
-				85E4AFD1295BFD50008008C2 /* ViewController.swift */,
 				85E4AFD3295BFD50008008C2 /* Main.storyboard */,
 				85E4AFD6295BFD53008008C2 /* Assets.xcassets */,
 				85E4AFD8295BFD53008008C2 /* LaunchScreen.storyboard */,
 				85E4AFDB295BFD53008008C2 /* Info.plist */,
+				85E4B000295C04AA008008C2 /* GoogleService-Info.plist */,
 			);
 			path = ToiletMaps;
 			sourceTree = "<group>";
@@ -127,6 +138,14 @@
 			path = ToiletMapsUITests;
 			sourceTree = "<group>";
 		};
+		85E4AFFF295C02F1008008C2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				85E4AFFD295C02DF008008C2 /* StartViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +162,12 @@
 			dependencies = (
 			);
 			name = ToiletMaps;
+			packageProductDependencies = (
+				85E4B003295C05CD008008C2 /* FirebaseAnalytics */,
+				85E4B005295C05CE008008C2 /* FirebaseAuth */,
+				85E4B007295C05CE008008C2 /* FirebaseDatabase */,
+				85E4B009295C05CE008008C2 /* FirebaseStorage */,
+			);
 			productName = ToiletMaps;
 			productReference = 85E4AFCA295BFD50008008C2 /* ToiletMaps.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +240,9 @@
 				Base,
 			);
 			mainGroup = 85E4AFC1295BFD50008008C2;
+			packageReferences = (
+				85E4B002295C05CD008008C2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 85E4AFCB295BFD50008008C2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85E4AFDA295BFD53008008C2 /* LaunchScreen.storyboard in Resources */,
+				85E4B001295C04AC008008C2 /* GoogleService-Info.plist in Resources */,
 				85E4AFD7295BFD53008008C2 /* Assets.xcassets in Resources */,
 				85E4AFD5295BFD50008008C2 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +287,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85E4AFD2295BFD50008008C2 /* ViewController.swift in Sources */,
 				85E4AFCE295BFD50008008C2 /* AppDelegate.swift in Sources */,
 				85E4AFD0295BFD50008008C2 /* SceneDelegate.swift in Sources */,
+				85E4AFFE295C02DF008008C2 /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,6 +625,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		85E4B002295C05CD008008C2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		85E4B003295C05CD008008C2 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85E4B002295C05CD008008C2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		85E4B005295C05CE008008C2 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85E4B002295C05CD008008C2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		85E4B007295C05CE008008C2 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85E4B002295C05CD008008C2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		85E4B009295C05CE008008C2 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85E4B002295C05CD008008C2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 85E4AFC2295BFD50008008C2 /* Project object */;
 }
