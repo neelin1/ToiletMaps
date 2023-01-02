@@ -21,6 +21,7 @@
 		85E4B006295C05CE008008C2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 85E4B005295C05CE008008C2 /* FirebaseAuth */; };
 		85E4B008295C05CE008008C2 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 85E4B007295C05CE008008C2 /* FirebaseDatabase */; };
 		85E4B00A295C05CE008008C2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 85E4B009295C05CE008008C2 /* FirebaseStorage */; };
+		85E4B00C295D5F11008008C2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E4B00B295D5F11008008C2 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		85E4AFF0295BFD54008008C2 /* ToiletMapsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletMapsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		85E4AFFD295C02DF008008C2 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		85E4B000295C04AA008008C2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		85E4B00B295D5F11008008C2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				85E4AFFD295C02DF008008C2 /* StartViewController.swift */,
+				85E4B00B295D5F11008008C2 /* MainViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				85E4AFCE295BFD50008008C2 /* AppDelegate.swift in Sources */,
 				85E4AFD0295BFD50008008C2 /* SceneDelegate.swift in Sources */,
 				85E4AFFE295C02DF008008C2 /* StartViewController.swift in Sources */,
+				85E4B00C295D5F11008008C2 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
